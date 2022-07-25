@@ -2,7 +2,7 @@
 
 <i>Problem:</i> The team frequently encounters teams dumping application logs and other large files on ephemeral storage in the container filesystem. 
 
-<i>Solution:</i> A bash script to scan each project in the Openshift Cluster to identify large files (+1GB) residing on container storage (ephemeral-no PVC).  Designed to run daily via cron on the dev jumphost, the application team is sent an email with a summary of the storage violation.
+<i>Solution:</i> A bash script to scan each project in the Openshift Cluster to identify large files (+1GB) residing on container storage (ephemeral-no PVC).  Designed to run daily via cron from an automation host, the application team is sent an email with a summary of the storage violation.
 
 ## Dependencies
 - Identify a report recipient<br> 
