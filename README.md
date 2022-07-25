@@ -13,7 +13,7 @@ Requires the ability to send email via postfix or other mail transfer agent. Oth
 ## Cron
 $ cat /etc/cron.d/ose-ephemeral-report<br>
 #Generate a daily (Mon-Fri) scan of Openshift ephemeral storage<br>
-0 3 * * 1-5 root /usr/local/bin/eph-storage-report.bash > /tmp/eph-storage-report.out<br>
+0 3 * * 1-5 root /usr/local/bin/eph-storage-report.sh > /tmp/eph-storage-report.out<br>
  
 ## Sample Email Report
 
