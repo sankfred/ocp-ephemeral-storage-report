@@ -29,6 +29,6 @@ Your data has been identified as a storage capacity violation. The file is writi
 ==== PROJECT: foo-bar ====<br>
 POD: pipeline-data-monitor-domain-12-cmvd4<br>
 CONTAINER: pipeline-data-monitor-domain<br>
-VOLMOUNT: /data/ /var/run/secrets/kubernetes.io/serviceaccount<br>
+VOLMOUNT: /data/ <br>
 1.1G /output/app/log/log-current.log<br>
 
